@@ -14,7 +14,7 @@ Role Variables
 Dependencies
 ------------
 
-* ``user` (default *divona*)
+* `user` (default *divona*)
 
 
 Example Playbook
