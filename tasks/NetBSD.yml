@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Emacs install
+- name: Emacs | Install
   pkgin:
     pkg: emacs
     state: present
 
-- name: Vim install
+- name: Vim | Install
   pkgin:
     pkg: vim
     state: present

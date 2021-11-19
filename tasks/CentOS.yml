@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Install Emacs
+- name: Emacs | Install
   yum:
     name: emacs
     state: present
 
-- name: Install Neovim
+- name: Neovim | Install
   yum:
     name: neovim
     state: present
