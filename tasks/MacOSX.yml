@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Install Emacs
+- name: Emacs | Install
   homebrew_cask:
     name: emacs
     state: present
 
-- name: Install Visual Studio Code
+- name: VSCode | Install
   homebrew_cask:
     name: visual-studio-code
     state: present
 
-- name: Install VimR
+- name: VimR | Install
   homebrew_cask:
     name: vimr
     state: present

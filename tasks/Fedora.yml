@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Install Emacs
+- name: Emacs | Install
   dnf:
     name: "{{ packages }}"
     state: present
@@ -20,7 +20,7 @@
     packages:
       - emacs
 
-- name: Install Neovim
+- name: Neovim | Install
   dnf:
     name: "{{ packages }}"
     state: present

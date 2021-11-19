@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Update database
+- name: APT | Update database
   apt:
     update_cache: true
 
-- name: Install Emacs
+- name: Emacs | Install
   apt:
     name: emacs
     state: present

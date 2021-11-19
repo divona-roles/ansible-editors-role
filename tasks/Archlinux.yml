@@ -12,16 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Update database
+- name: Pacman | Update database
   pacman:
     update_cache: true
 
-- name: Install Emacs
+- name: Emacs | Install
   pacman:
     name: emacs
     state: present
 
-- name: Install Neovim
+- name: Neovim | Install
   pacman:
     name: neovim
     state: present

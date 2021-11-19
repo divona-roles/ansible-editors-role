@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Emacs install
+- name: Emacs | Install
   pkgng:
     pkg: emacs
     state: present
 
-- name: Vim install
+- name: Neovim | Install
   pkgng:
     pkg: neovim
     state: present

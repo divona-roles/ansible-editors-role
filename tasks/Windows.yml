@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-- name: Install Emacs
+- name: Emacs | Install
   win_chocolatey:
     name: emacs64
     state: present
 
-- name: Install Visual Studio Code
+- name: VSCode | Install
   win_chocolatey:
     name: visualstudiocode
     state: present
 
-- name: Install Neovim
+- name: Neovim | Install
   win_chocolatey:
     name: neovim
     state: present
